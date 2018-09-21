@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.clear{
+	clear: both;
+}
+
+#header{
+	margin-top:10px;
+	background-color: #808080;
+	color: white;
+	font-size: 18px;
+}
+
+.header{
+	width:13%;
+	float:left;
+	margin:0 2px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bolder;
+}
+
+.date{
+	width:13%;
+	height:40px;
+	float:left;
+	margin:0 2px;
+	text-align: center;
+	color: gray;
+	font-size:20px;
+	line-height: 40px;
+}
+
+.data{
+	height:20px;
+	color:black;
+	font-size: 10px;
+	position:relative;
+	top:-25px;
+	text-align: center;
+	font-weight: bold;
+}

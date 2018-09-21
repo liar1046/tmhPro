@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>WeixinServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.WeixinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TaskServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.TaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TaskInfoServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.TaskInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContractServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.ContractServlet</servlet-class>
+  </servlet>  <servlet>
+    <servlet-name>TaskdateServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.TaskdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ConfirmOrderServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.ConfirmOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrdersToConfirmServlet</servlet-name>
+    <servlet-class>cn.csy.servlet.OrdersToConfirmServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>WeixinServlet</servlet-name>
+    <url-pattern>/weixinServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TaskServlet</servlet-name>
+    <url-pattern>/taskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TaskInfoServlet</servlet-name>
+    <url-pattern>/taskInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/orderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContractServlet</servlet-name>
+    <url-pattern>/contractServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TaskdateServlet</servlet-name>
+    <url-pattern>/taskdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmOrderServlet</servlet-name>
+    <url-pattern>/confirmOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrdersToConfirmServlet</servlet-name>
+    <url-pattern>/ordersToConfirmServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>

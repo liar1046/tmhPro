@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.clear{
+	clear:both;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: white;
+}
+#header_data{
+	height:2px;
+}
+#finished{
+	width:130px;
+	height:130px;
+	position: relative;
+	margin:0 auto;
+	top:-148px;
+	text-align: center;
+	line-height: 130px;
+	color: white;
+	font-size: 26px;
+	border-radius: 50%;
+}
+
+#line{
+	width:70px;
+	border-top:1px solid white;
+	position:relative;
+	margin:0 auto;
+	top:-45px;
+	color:white;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+#add{
+	 width:100%;
+	 text-align:center; 
+	 background-color:gray;
+}
+
+#tasklist{
+	float:left;
+	color:white;
+	padding-top:15px;
+}
+
+#total{
+	float:right;
+	color:white;
+	padding-top:15px;
+}
+
+#header_right{
+	float:right;
+	margin:0 10px 5px 0;
+	color:gray;
+}
+
+#content{
+	width:100%;
+}
+
+#content_head{
+	width:100%;
+	float:left;
+	padding-left:3px;
+	background-color: #eee;
+}
+
+#content_head span{
+	color:blue;
+}
+
+#content_left_up{
+	width:35%;
+	height:40px;
+	float:left;
+	color: blue;
+	line-height: 40px;
+	text-align:center;
+}
+
+#content_left_up span{
+	font-size: 20px;
+}
+
+#content_right_up{
+	width:65%;
+	float:right;
+	font-size: 18px;
+}
+
+#content_left_down{
+	width:35%;
+	float:left;
+	font-size: 14px;
+	text-align:center;
+}
+
+#content_right_down{
+	width:65%;
+	float:right;
+	color:gray;
+}
